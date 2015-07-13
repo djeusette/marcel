@@ -16,8 +16,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.license = 'MIT'
 
-  gem.files = Dir["lib/**/*"] + ["Rakefile", "README.md"]
-
-  # gem.files = `git ls-files`.split("\n")
-  # gem.test_files = `git ls-files -- spec/*`.split("\n")
+  gem.files = `git ls-files`.split("\n")
+  gem.test_files = `git ls-files -- spec/*`.split("\n")
 end
