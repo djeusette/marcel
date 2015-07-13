@@ -1,0 +1,7 @@
+.bundle
+Gemfile.lock
+.ruby-version
+.ruby-gemset
+.DS_Store
+/log/*.log
+/tmp
